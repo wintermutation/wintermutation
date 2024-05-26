@@ -1,0 +1,18 @@
+{
+"companyName": "Wintermutation",
+"productName": "The Desert of the Real",
+"productVersion": "0.1",
+"dataUrl": "2024-05-20_fixed-dlopen-error.data.unityweb",
+"wasmCodeUrl": "2024-05-20_fixed-dlopen-error.wasm.code.unityweb",
+"wasmFrameworkUrl": "2024-05-20_fixed-dlopen-error.wasm.framework.unityweb",
+"wasmSymbolsUrl": "2024-05-20_fixed-dlopen-error.wasm.symbols.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "2024-05-20_fixed-dlopen-error.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.8f1"
+}
