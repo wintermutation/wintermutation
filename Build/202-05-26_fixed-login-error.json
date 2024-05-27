@@ -1,0 +1,18 @@
+{
+"companyName": "Wintermutation",
+"productName": "The Desert of the Real",
+"productVersion": "0.1",
+"dataUrl": "202-05-26_fixed-login-error.data.unityweb",
+"wasmCodeUrl": "202-05-26_fixed-login-error.wasm.code.unityweb",
+"wasmFrameworkUrl": "202-05-26_fixed-login-error.wasm.framework.unityweb",
+"wasmSymbolsUrl": "202-05-26_fixed-login-error.wasm.symbols.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "202-05-26_fixed-login-error.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.8f1"
+}
