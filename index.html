@@ -10,6 +10,16 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/2024-06-06_cookie-tests.json", {onProgress: UnityProgress});
+      fetch = function( url,data) {
+        console.log("url received: " + url);
+        if (url.indexOf('https://www.wintermutation.com/') === 0 || url.indexOf('http://localhost') === 0 || url.indexOf('http://127.0.0.1') === 0) {
+          data = {...data, ...{credentials : "include"}};
+          console.log("withCredentials set to true " + JSON.stringify(data) + " url: " + url );
+        }  else {
+          console.log("withCredentials NOT SET for URL: " + url);
+        }
+        return originalfetch(url,data);
+      };
     </script>
 
     <!-- WebGLFileUploader -->
