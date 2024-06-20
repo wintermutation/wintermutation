@@ -1,0 +1,18 @@
+{
+"companyName": "Wintermutation",
+"productName": "The Desert of the Real",
+"productVersion": "0.1",
+"dataUrl": "dotr_prod.data.unityweb",
+"wasmCodeUrl": "dotr_prod.wasm.code.unityweb",
+"wasmFrameworkUrl": "dotr_prod.wasm.framework.unityweb",
+"wasmSymbolsUrl": "dotr_prod.wasm.symbols.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "dotr_prod.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.8f1"
+}
