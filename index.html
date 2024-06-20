@@ -28,7 +28,8 @@
 		XMLHttpRequest.prototype.open = function (...args) 
 		{
 	    this._url = args[1];
-	    this.withCredentials = true;
+	    if (this._url.indexOf("dotr.wintermutation.com") != -1)
+	    	this.withCredentials = true;
 	    this.originalOpen(...args);
 		}
     </script>
